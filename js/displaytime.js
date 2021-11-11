@@ -11,6 +11,9 @@ function dispTime(){
 	var {date, time}  = timeSet(japanStandardTime, 0, 1);
 	document.getElementById("view_clock").innerHTML = "JST (Tokyo) : "+ date + " "+ time;
 
+	var {date, time} =  timeSet(new Date('2021-11-15 16:00:00'), diff, 0);
+	document.getElementById("day15th_pm").innerHTML =  date + " "+ time + "- (15th AM 16:00 (JST))";
+
 	var {date, time} =  timeSet(new Date('2021-11-16 09:00:00'), diff, 0);
 	document.getElementById("day16th_am").innerHTML =  date + " "+ time + "- (16th AM 09:00 (JST))";
 	
