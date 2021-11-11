@@ -11,28 +11,28 @@ function dispTime(){
 	var {date, time}  = timeSet(japanStandardTime, 0, 1);
 	document.getElementById("view_clock").innerHTML = "JST (Tokyo) : "+ date + " "+ time;
 
-	var {date, time} =  timeSet(new Date('2021-11-15 16:00:00'), diff, 0);
-	document.getElementById("day15th_pm").innerHTML =  date + " "+ time + "- (15th AM 16:00 (JST))";
+	var {date, time} =  timeSet(new Date('2021/11/15 16:00:00'), diff, 0);
+	document.getElementById("day15th_pm").innerHTML =  date + " "+ time + "- (15th PM 16:00 (JST))";
 
-	var {date, time} =  timeSet(new Date('2021-11-16 09:00:00'), diff, 0);
+	var {date, time} =  timeSet(new Date('2021/11/16 09:00:00'), diff, 0);
 	document.getElementById("day16th_am").innerHTML =  date + " "+ time + "- (16th AM 09:00 (JST))";
 	
-	var {date, time} =  timeSet(new Date('2021-11-16 16:00:00'), diff, 0);
+	var {date, time} =  timeSet(new Date('2021/11/16 16:00:00'), diff, 0);
 	document.getElementById("day16th_pm").innerHTML =  date + " "+ time + "- (16th PM 16:00 (JST))";
 	
-	var {date, time} =  timeSet(new Date('2021-11-17 09:00:00'), diff, 0);
+	var {date, time} =  timeSet(new Date('2021/11/17 09:00:00'), diff, 0);
 	document.getElementById("day17th_am").innerHTML =  date + " "+ time + "- (17th AM 09:00 (JST))";
 	
-	var {date, time} =  timeSet(new Date('2021-11-17 16:00:00'), diff, 0);
+	var {date, time} =  timeSet(new Date('2021/11/17 16:00:00'), diff, 0);
 	document.getElementById("day17th_pm").innerHTML =  date + " "+ time + "- (17th PM 16:00 (JST))";
 	
-	var {date, time} =  timeSet(new Date('2021-11-18 09:00:00'), diff, 0);
+	var {date, time} =  timeSet(new Date('2021/11/18 09:00:00'), diff, 0);
 	document.getElementById("day18th_am").innerHTML =  date + " "+ time + "- (18th AM 09:00 (JST))";
 	
-	var {date, time} =  timeSet(new Date('2021-11-18 16:00:00'), diff, 0);
+	var {date, time} =  timeSet(new Date('2021/11/18 16:00:00'), diff, 0);
 	document.getElementById("day18th_pm").innerHTML =  date + " "+ time + "- (18th PM 16:00 (JST))";
 	
-	var {date, time} =  timeSet(new Date('2021-11-19 09:00:00'), diff, 0);
+	var {date, time} =  timeSet(new Date('2021/11/19 09:00:00'), diff, 0);
 	document.getElementById("day19th_am").innerHTML =  date + " "+ time + "- (19th AM 09:00 (JST))";
 	
 }
